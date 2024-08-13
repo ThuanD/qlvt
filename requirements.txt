@@ -1,0 +1,6 @@
+django
+django-cleanup
+django-constance
+gunicorn
+pillow
+python-dotenv
