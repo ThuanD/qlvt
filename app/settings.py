@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'constance',
     'constance.backends.memory',
     'django_cleanup.apps.CleanupConfig',
+    'import_export',
     'contract',
 ]
 
@@ -182,3 +183,7 @@ CONSTANCE_CONFIG_FIELDSETS = (
 )
 
 SITE_URL = os.getenv('SITE_URL')
+
+# django-import-export
+IMPORT_EXPORT_IMPORT_PERMISSION_CODE = 'import'
+IMPORT_EXPORT_EXPORT_PERMISSION_CODE = 'export'

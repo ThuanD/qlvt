@@ -22,6 +22,10 @@ class Contract(models.Model):
     class Meta:
         db_table = 'contract'
         verbose_name = _('contract')
+        permissions = (
+            ('import_folder', _('Can import contract')),
+            ('export_folder', _('Can export contract')),
+        )
 
     def __str__(self):
         return self.name

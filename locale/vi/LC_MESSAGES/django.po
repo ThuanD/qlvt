@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-16 03:24+0700\n"
+"POT-Creation-Date: 2024-08-20 10:46+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,43 +18,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: app/settings.py:142
+#: app/settings.py:143
 msgid "English"
 msgstr ""
 
-#: app/settings.py:143
+#: app/settings.py:144
 msgid "Vietnamese"
 msgstr ""
 
-#: app/settings.py:173
+#: app/settings.py:174
 msgid "Maintenance mode"
 msgstr ""
 
-#: app/settings.py:177
+#: app/settings.py:178
 msgid "Maintenance configuration"
 msgstr ""
 
-#: contract/admin.py:17
+#: contract/admin.py:26
 msgid "Contract Tag"
 msgstr "Hình ảnh"
 
-#: contract/admin.py:38
+#: contract/admin.py:47
 msgid "QR Code"
 msgstr "Mã QR"
 
-#: contract/admin.py:42
+#: contract/admin.py:51
 msgid "Identity"
 msgstr "Định danh"
 
-#: contract/admin.py:48
+#: contract/admin.py:57
 msgid "Media"
 msgstr "Phương tiện"
 
-#: contract/admin.py:58 contract/admin.py:59
+#: contract/admin.py:67 contract/admin.py:68
 msgid "QLTV"
 msgstr ""
 
-#: contract/admin.py:60
+#: contract/admin.py:69
 msgid "Admin page"
 msgstr "Trang quản trị"
 
@@ -75,3 +75,11 @@ msgstr "Thời gian tạo"
 #: contract/models.py:20
 msgid "Modified time"
 msgstr "Lần chỉnh sửa cuối"
+
+#: contract/models.py:26
+msgid "Can import contract"
+msgstr ""
+
+#: contract/models.py:27
+msgid "Can export contract"
+msgstr ""

@@ -1,6 +1,7 @@
 django
 django-cleanup
 django-constance
+django-import-export
 gunicorn
 pillow
 python-dotenv
